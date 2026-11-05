@@ -1,50 +1,381 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RU_ASP_Semester_Project</title>
-    <script type="importmap"></script>
+
+    <title>@ViewData["Title"] - Rockford University</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RU_ASP_Semester_Project.styles.css" asp-append-version="true" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RU_ASP_Semester_Project</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - RU_ASP_Semester_Project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+<body>
+
+    <!-- ============================= -->
+    <!-- ROCKFORD UNIVERSITY HEADER    -->
+    <!-- ============================= -->
+    <!-- TOP NAVIGATION -->
+    <section class="toparea">
+        <div class="toparea-container">
+
+            <!-- LEFT SIDE -->
+            <div class="toparea-left">
+                <a href="https://www.rockford.edu/admission/apply/">
+                    Apply Now
+                </a>
+
+                <a href="/contactus">
+                    Contact Us
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="toparea-right">
+                <a href="https://www.rockford.edu/about/">About</a>
+
+                <a href="https://www.rockford.edu/newsroom/">Newsroom</a>
+
+                <a href="https://www.givecampus.com/5m190o" target="_blank">
+                    Give
+                </a>
+
+                <a href="https://rockford.libguides.com/home">
+                    Library
+                </a>
+
+                <a href="/Account/Login">
+                    my.rockford.edu
+                </a>
+
+                <form role="search" method="get"
+                      action="https://www.rockford.edu/">
+                    <input type="search"
+                           name="s"
+                           placeholder="Search..." />
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
         </div>
+    </section>
+
+
+    <header class="ru-header">
+
+        <!-- UNIVERSITY BRAND -->
+        <div class="ru-brand">
+            <a asp-controller="Home" asp-action="Index">
+                Logo Filler
+            </a>
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="ru-navigation">
+
+            <!-- MOBILE HAMBURGER -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+
+            <!-- MAIN NAVIGATION -->
+
+            <ul class="mainNav">
+
+                <!-- ACADEMICS -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="academics-dropdown">
+                        Academics <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="academics-dropdown">
+                        <li class="dropdown-heading">PROGRAMS</li>
+                        <li><a href="https://www.rockford.edu/academics/">Academics</a></li>
+                        <li><a href="https://www.rockford.edu/academics/majorsminors/">Majors and Minors</a></li>
+                        <li><a href="https://www.rockford.edu/academics/departments/">Academic Departments</a></li>
+                        <li><a href="https://www.rockford.edu/admission/undergraduate/">Undergraduate Degrees</a></li>
+                        <li><a href="https://www.rockford.edu/admission/graduate/">Graduate Programs</a></li>
+                        <li><a href="https://www.rockford.edu/admission/ru-online/">RU Online</a></li>
+                        <li><a href="https://www.rockford.edu/academics/studyabroad/">Study Abroad</a></li>
+
+                        <li class="dropdown-heading">RESOURCES &amp; SUPPORT</li>
+                        <li><a href="https://rockford.libguides.com/home">Library</a></li>
+                        <li><a href="https://www.rockford.edu/academics/registrar/">Registrar</a></li>
+                        <li><a href="https://www.rockford.edu/academics/resources/">Catalog and Resources</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- ADMISSION -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="admission-dropdown">
+                        Admission <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="admission-dropdown">
+                        <li class="dropdown-heading">INFORMATION FOR</li>
+                        <li><a href="https://www.rockford.edu/admission/firstyear/">First Year Undergraduate</a></li>
+                        <li><a href="https://www.rockford.edu/admission/transfer/">Transfer Students</a></li>
+                        <li><a href="https://www.rockford.edu/admission/international/">International Students</a></li>
+                        <li><a href="https://www.rockford.edu/admission/admitted/">Admitted Students</a></li>
+                        <li><a href="https://www.rockford.edu/admission/graduate/">Graduate Programs</a></li>
+
+                        <li class="dropdown-heading">TUITION &amp; FINANCIAL AID</li>
+                        <li><a href="https://www.rockford.edu/admission/financialaid/">Financial Aid and Scholarships</a></li>
+                        <li><a href="https://www.rockford.edu/admission/tuition/">Tuition and Fees</a></li>
+
+                        <li class="dropdown-heading">CONNECT</li>
+                        <li><a href="https://www.rockford.edu/eforms/admissionsrequest/">Request Information</a></li>
+                        <li><a href="https://www.rockford.edu/admission/visit/">Visit Campus</a></li>
+                        <li><a href="https://www.rockford.edu/admission/apply/">Apply Now</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- CAMPUS & COMMUNITY -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="campus-dropdown">
+                        Campus &amp; Community <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="campus-dropdown">
+                        <li class="dropdown-heading">FOR STUDENTS</li>
+                        <li><a href="https://www.rockford.edu/community/careerdevelopment/">Career Development</a></li>
+                        <li><a href="https://www.rockford.edu/community/reslife/">Residence Life</a></li>
+                        <li><a href="https://www.rockford.edu/community/studentactivities/">Student Activities</a></li>
+                        <li><a href="https://www.rockford.edu/community/studentsuccess/">Student Success</a></li>
+
+                        <li class="dropdown-heading">CAMPUS SERVICES</li>
+                        <li><a href="https://www.rockford.edu/about/campusmap/">Campus Map</a></li>
+                        <li><a href="https://www.rockford.edu/community/campus/dining/">Dining Services</a></li>
+                        <li><a href="https://www.rockford.edu/community/campus/it-information-technology/">Information Technology</a></li>
+                        <li><a href="https://www.rockford.edu/community/campus/security/">Public Safety</a></li>
+
+                        <li class="dropdown-heading">COMMUNITY</li>
+                        <li><a href="https://www.rockford.edu/about/">About Rockford University</a></li>
+                        <li><a href="https://www.rockford.edu/community/humanresources/">Employment</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- ARTS & LECTURES -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="arts-dropdown">
+                        Arts &amp; Lectures <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="arts-dropdown">
+                        <li class="dropdown-heading">LOCATIONS &amp; RESOURCES</li>
+                        <li><a href="https://www.rockford.edu/artslectures/artgallery/">Art Gallery</a></li>
+                        <li><a href="https://www.rockford.edu/artslectures/boxoffice/">Box Offices</a></li>
+                        <li><a href="https://www.rockford.edu/artslectures/theatres/">Theatres</a></li>
+
+                        <li class="dropdown-heading">EVENTS &amp; PERFORMANCES</li>
+                        <li><a href="https://www.rockford.edu/artslectures/forum/">Forum Series</a></li>
+                        <li><a href="https://www.rockford.edu/artslectures/musicensembles/">Music Ensembles</a></li>
+                        <li><a href="https://www.rockford.edu/artslectures/performingarts/">Performing Arts</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- ATHLETICS -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="athletics-dropdown">
+                        Athletics <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="athletics-dropdown">
+                        <li class="dropdown-heading">MEN'S SPORTS</li>
+                        <li><a href="https://rockfordregents.com/sports/baseball">Baseball</a></li>
+                        <li><a href="https://rockfordregents.com/sports/football">Football</a></li>
+                        <li><a href="https://rockfordregents.com/sports/mens-basketball">Basketball</a></li>
+                        <li><a href="https://rockfordregents.com/sports/mens-soccer">Soccer</a></li>
+
+                        <li class="dropdown-heading">WOMEN'S SPORTS</li>
+                        <li><a href="https://rockfordregents.com/sports/womens-basketball">Basketball</a></li>
+                        <li><a href="https://rockfordregents.com/sports/softball">Softball</a></li>
+                        <li><a href="https://rockfordregents.com/sports/womens-volleyball">Volleyball</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- ALUMNI -->
+                <li class="has-dropdown">
+                    <button type="button" class="nav-dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="alumni-dropdown">
+                        Alumni <span>▾</span>
+                    </button>
+
+                    <ul class="dropdown" id="alumni-dropdown">
+                        <li class="dropdown-heading">STAY IN TOUCH</li>
+                        <li><a href="https://www.rockford.edu/alumni/association/">Alumni Association</a></li>
+                        <li><a href="https://www.rockford.edu/alumni/awards/">Alumni Awards</a></li>
+                        <li><a href="https://www.rockford.edu/alumni/transcript/">Transcript Requests</a></li>
+
+                        <li class="dropdown-heading">ENGAGE</li>
+                        <li><a href="https://www.rockford.edu/alumni/homecoming/">Homecoming</a></li>
+                        <li><a href="https://www.rockford.edu/alumni/day-of-giving/">Day of Giving</a></li>
+                        <li><a href="https://www.rockford.edu/ways-to-give/">Ways to Give</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- MAIN PAGE CONTENT             -->
+    <!-- ============================= -->
+
+    <main role="main">
+
+        @RenderBody()
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- FOOTER                        -->
+    <!-- ============================= -->
+    <footer class="ru-footer">
+
+
+        <div class="footer-content">
+
+            <!-- COLUMN 1: UNIVERSITY INFORMATION -->
+            <div class="footer-column">
+                <h3>ROCKFORD UNIVERSITY</h3>
+
+                <p>
+                    5050 East State Street<br />
+                    Rockford IL 61108
+                </p>
+
+                <p>815.226.4000</p>
+
+                <p>
+                    <a href="/campus-directory/">Faculty &amp; Staff Directory</a>
+                    <a href="/about/campusmap/">Campus Map &amp; Directions</a>
+                    <a href="https://youtu.be/f3oZsHBodck">Virtual Tour - Visit Campus Today</a>
+                </p>
+            </div>
+
+            <!-- COLUMN 2: LIBRARY AND RESOURCES -->
+            <div class="footer-column">
+                <ul>
+                    <li><a href="https://rockford.libguides.com/home">Library</a></li>
+                    <li><a href="/academics/majorsminors/">Majors and Minors</a></li>
+                    <li><a href="/portal/">my.rockford.edu</a></li>
+                    <li><a href="/academics/resources/catalog/">Online Interactive Academic Catalog</a></li>
+                    <li><a href="/community/humanresources/">Employment Opportunities</a></li>
+                    <li><a href="/community/campus/lang/">Lang Wellness Center</a></li>
+                    <li><a href="/community/campus/titleix/">Compliance and Title IX</a></li>
+                    <li><a href="/emergency/">Emergency Information</a></li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3: GIVING AND ADDITIONAL LINKS -->
+            <div class="footer-column">
+                <ul>
+                    <li><a href="/ways-to-give/">Give</a></li>
+                    <li><a href="/about/news/">News</a></li>
+                    <li><a href="/calendar/">Event Calendar</a></li>
+                    <li><a href="/about/">About Rockford University</a></li>
+                    <li><a href="/about/leadership/president/">President's Office</a></li>
+                    <li><a href="/privacy/">Privacy Policy</a></li>
+                    <li><a href="https://complaints.ibhe.org/">IBHE Feedback</a></li>
+                    <li><a href="/community/campus/scheduling/">Scheduling Services and Rentals</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- BACK TO TOP -->
+        <div class="back-top">
+            <a href="#top">Back to Top ↑</a>
+        </div>
+
+
+        <!-- COPYRIGHT AND SOCIAL MEDIA -->
+        <div class="copyright">
+
+            <div class="copyright-content">
+
+                <p>
+                    Copyright &copy; 2026 Rockford University,
+                    all rights reserved
+                </p>
+
+
+                <!-- SOCIAL MEDIA LINKS -->
+                <div class="social-icons">
+
+                    <a href="https://www.facebook.com/RockfordUniversity"
+                       target="_blank">Facebook</a>
+
+                    <a href="https://www.twitter.com/RockfordUniv"
+                       target="_blank">Twitter</a>
+
+                    <a href="https://www.instagram.com/rockforduniversity/"
+                       target="_blank">Instagram</a>
+
+                    <a href="https://www.snapchat.com/add/rockford.u"
+                       target="_blank">Snapchat</a>
+
+                    <a href="https://www.linkedin.com/edu/school?id=18296"
+                       target="_blank">LinkedIn</a>
+
+                    <a href="https://www.youtube.com/user/rockforduniversity"
+                       target="_blank">YouTube</a>
+
+                    <a href="https://rockford.meritpages.com/"
+                       target="_blank">Merit</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </footer>
+
+
+
+    <!-- ============================= -->
+    <!-- JAVASCRIPT                    -->
+    <!-- ============================= -->
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
+
 </html>
