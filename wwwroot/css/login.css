@@ -1,0 +1,135 @@
+/* GENERAL PAGE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/Images/LoginBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* CENTER LOGIN BOX */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* LOGIN BOX */
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+    /* HEADINGS */
+
+    .login-box h1 {
+        text-align: center;
+        color: #173b65;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .login-box h2 {
+        text-align: center;
+        color: #222;
+        margin-bottom: 30px;
+    }
+
+
+/* FORM FIELDS */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: black;
+    }
+
+    .form-group input {
+        padding: 13px 16px;
+        border: 1px solid #aaa;
+        border-radius: 25px;
+        font-size: 15px;
+        outline: none;
+    }
+
+        .form-group input:focus {
+            border-color: #173b65;
+        }
+
+
+/* BUTTONS */
+
+.login-button,
+.change-password-button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5aadce;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .login-button:hover,
+    .change-password-button:hover {
+        background-color: #83addb;
+    }
+
+
+/* FORGOT PASSWORD */
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .forgot-password a {
+        color: #174d80;
+        text-decoration: none;
+    }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .login-box {
+        padding: 25px;
+    }
+
+        .login-box h1 {
+            font-size: 22px;
+        }
+}
