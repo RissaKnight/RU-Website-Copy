@@ -1,31 +1,591 @@
-html {
-  font-size: 14px;
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
+/* ============================= */
+/* GENERAL                       */
+/* ============================= */
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+* {
+    box-sizing: border-box;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* ============================= */
+/* HEADER                        */
+/* ============================= */
+
+.ru-header {
+    background-color: #f7f7f7;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    position: relative;
+    z-index: 1000;
+}
+
+.ru-brand a {
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* ============================= */
+/* TOP NAVIGATION                */
+/* ============================= */
+
+.toparea {
+    width: 100%;
+    background-color: #444444;
+    color: #ccc;
+    padding: 10px 35px;
+    font-size: 13px;
+}
+
+.toparea-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.toparea-left,
+.toparea-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.toparea a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+    .toparea a:hover {
+        color: #b8d4f3;
+        text-decoration: underline;
+    }
+
+/* SEARCH */
+
+.toparea form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.toparea input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+}
+
+.toparea button {
+    padding: 6px 10px;
+    border: none;
+    background-color: #5a4099;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    .toparea button:hover {
+        background-color: white;
+    }
+
+/* ============================= */
+/* MEDIUM SCREENS                */
+/* ============================= */
+
+@media (max-width: 991px) {
+
+    .toparea-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toparea-left,
+    .toparea-right {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
+
+/* ============================= */
+/* SMALL SCREENS                 */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    .toparea {
+        padding: 12px 15px;
+    }
+
+    .toparea-container {
+        align-items: stretch;
+    }
+
+    .toparea-left,
+    .toparea-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toparea form {
+        width: 100%;
+    }
+
+    .toparea input {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+/* ============================= */
+/* MAIN NAVIGATION                */
+/* ============================= */
+
+.ru-navigation {
+    display: flex;
+    align-items: center;
+    background-color: #d6d6d6;
+}
+
+.mainNav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+    .mainNav > li {
+        position: relative;
+    }
+
+        /* MAIN NAVIGATION LINKS AND BUTTONS */
+
+        .mainNav > li > a,
+        .mainNav > li > .nav-dropdown-toggle {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            padding: 18px 12px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* DROPDOWN BUTTON */
+
+        .mainNav > li > .nav-dropdown-toggle {
+            background: transparent;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+        }
+
+            /* HOVER EFFECT */
+
+            .mainNav > li > a:hover,
+            .mainNav > li > .nav-dropdown-toggle:hover {
+                background-color: #5a4099;
+                color: #fff;
+            }
+
+        /* DROPDOWN CLOSED BY DEFAULT */
+
+        .mainNav > li.has-dropdown > .dropdown {
+            display: none;
+        }
+
+        /* DROPDOWN OPEN WHEN CLICKED */
+
+        .mainNav > li.has-dropdown.is-open > .dropdown {
+            display: block;
+        }
+
+/* ARROW ANIMATION */
+
+.nav-dropdown-toggle span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.has-dropdown.is-open .nav-dropdown-toggle span {
+    transform: rotate(180deg);
+}
+
+
+/* ============================= */
+/* DROPDOWN MENUS                */
+/* ============================= */
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: #fff;
+    list-style: none;
+    padding: 8px 0;
+    margin: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    z-index: 1000;
+}
+
+    /* DROPDOWN LINKS */
+
+    .dropdown li a {
+        display: block;
+        color: #000;
+        background-color: #fff;
+        text-decoration: none;
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+
+        /* DROPDOWN HOVER */
+
+        .dropdown li a:hover {
+            background-color: #5a4099;
+            color: #fff;
+        }
+
+/* DROPDOWN HEADINGS */
+
+.dropdown-heading {
+    color: #777;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 13px 16px 7px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* ============================= */
+/* HAMBURGER MENU                */
+/* ============================= */
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+    .hamburger span {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background-color: #444444;
+        margin: 5px;
+    }
+
+
+/* ============================= */
+/* FOOTER                        */
+/* ============================= */
+
+.ru-footer {
+    background-color: #222;
+    background-image: url('/Images/FooterBackground.jpg');
+    background-size: 100% auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* FOOTER THREE COLUMN LAYOUT */
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 30px 45px;
+}
+
+/* FOOTER LINKS */
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .footer-column ul li {
+        margin-bottom: 12px;
+    }
+
+/* MEDIUM AND SMALL SCREENS */
+
+@media (max-width: 991px) {
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .ru-footer {
+        background-size: 100% auto;
+        background-position: center ;
+    }
+}
+/* FOOTER COLUMNS */
+
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .footer-column ul li {
+        margin-bottom: 12px;
+    }
+
+.footer-column a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+    .footer-column a:hover {
+        color: #b8d4f3;
+        text-decoration: underline;
+    }
+
+/* BACK TO TOP */
+
+.back-top {
+    text-align: center;
+    padding: 15px;
+}
+
+    .back-top a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+        .back-top a:hover {
+            text-decoration: underline;
+        }
+
+/* COPYRIGHT SECTION */
+
+.copyright {
+    background-color: #5a4099;
+    padding: 20px 30px;
+}
+
+.copyright-content {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .copyright-content p {
+        margin: 0;
+        font-size: 13px;
+    }
+
+/* SOCIAL MEDIA LINKS */
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+    .social-icons a {
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+        .social-icons a:hover {
+            color: #b8d4f3;
+            text-decoration: underline;
+        }
+
+
+
+/* ============================= */
+/* MOBILE NAVIGATION              */
+/* ============================= */
+
+@media (max-width: 1100px) {
+
+    /* KEEP LOGO AND HAMBURGER ON SAME LINE */
+    .ru-header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    /* LOGO LEFT */
+    .ru-brand {
+        flex: 0 0 auto;
+    }
+
+    /* HAMBURGER RIGHT */
+    .ru-navigation {
+        display: flex;
+        flex: 0 0 auto;
+        width: auto;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        background-color: #d6d6d6;
+    }
+
+    /* SHOW HAMBURGER */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+        margin: 0;
+    }
+
+    /* HIDE NORMAL NAVIGATION */
+    .mainNav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* SHOW NAVIGATION WHEN HAMBURGER IS CLICKED */
+    .menu-toggle:checked ~ .mainNav {
+        display: flex;
+    }
+
+    /* NAVIGATION ITEMS */
+    .mainNav > li {
+        width: 100%;
+    }
+
+        .mainNav > li > a,
+        .mainNav > li > .nav-dropdown-toggle {
+            width: 100%;
+            padding: 14px 20px;
+        }
+
+    /* SUBMENUS */
+    .dropdown {
+        position: static;
+        width: 100%;
+        min-width: 0;
+        max-height: none;
+        background-color: #fff;
+        box-shadow: none;
+    }
+
+        .dropdown li a {
+            color: #000;
+            background-color: #fff;
+        }
+
+    .dropdown-heading {
+        color: #777;
+        background-color: #fff;
+    }
+}
+
+
+/* ============================= */
+/* TABLET FOOTER                 */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* ============================= */
+/* SMALL SCREEN                  */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .ru-brand a {
+        font-size: 19px;
+    }
+}
+
+/* ============================= */
+/* ALUMNI DROPDOWN POSITION       */
+/* ============================= */
+
+@media (min-width: 1101px) {
+    #alumni-dropdown {
+        left: auto;
+        right: 0;
+    }
 }
