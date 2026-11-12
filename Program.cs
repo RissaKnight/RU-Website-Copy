@@ -20,6 +20,11 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+//adds the area route for the admin/employee area
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
