@@ -28,6 +28,10 @@ body {
     z-index: 1000;
 }
 
+.ru-brand{
+display: inline;
+padding: 20px;
+}
 .ru-brand a {
     color: #000;
     text-decoration: none;
@@ -300,21 +304,74 @@ body {
         margin: 5px;
     }
 
+/* ============================= */
+/* MAIN PAGE LAYOUT               */
+/* ============================= */
+
+.page {
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* TOP SECTION */
+
+.top-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+/* BOTTOM THREE COLUMNS */
+
+.bottom-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+/* MEDIUM SCREENS - TABLETS */
+
+@media (min-width: 768px) {
+
+    .top-layout {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .bottom-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* LARGE SCREENS - DESKTOP */
+
+@media (min-width: 1024px) {
+
+    .bottom-layout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 /* ============================= */
 /* FOOTER                        */
 /* ============================= */
 
 .ru-footer {
+    position: relative;
     background-color: #222;
     background-image: url('/Images/FooterBackground.jpg');
-    background-size: 100% auto;
-    background-position: center ;
+    background-size: 100% 100%;
+    background-position: center top;
     background-repeat: no-repeat;
+
     color: white;
     margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 50px 20px 30px;
     font-size: 13px;
     line-height: 20px;
 }
@@ -351,8 +408,13 @@ body {
         gap: 30px;
     }
     .ru-footer {
-        background-size: 100% auto;
-        background-position: center ;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        padding: 50px 20px 30px;
+        font-size: 13px;
+        line-height: 20px;
     }
 }
 /* FOOTER COLUMNS */
