@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RU_ASP_Semester_Project.styles.css" asp-append-version="true" />
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
 
 <body>
@@ -65,11 +68,13 @@
 
 
     <header class="ru-header">
+        
+        <div class="header-container">
 
         <!-- UNIVERSITY BRAND -->
         <div class="ru-brand">
             <a asp-controller="Home" asp-action="Index">
-                Logo Filler
+                <img src="~/images/Rockford_University_logo.svg" alt="Rockford University Logo" height="50"/>
             </a>
         </div>
 
@@ -77,7 +82,7 @@
         <nav class="ru-navigation">
 
             <!-- MOBILE HAMBURGER -->
-            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
 
             <label for="menu-toggle" class="hamburger">
                 <span></span>
@@ -243,6 +248,7 @@
 
         </nav>
 
+        </div>
     </header>
 
 
@@ -276,15 +282,16 @@
 
                 <p>815.226.4000</p>
 
-                <p>
-                    <a href="/campus-directory/">Faculty &amp; Staff Directory</a>
-                    <a href="/about/campusmap/">Campus Map &amp; Directions</a>
-                    <a href="https://youtu.be/f3oZsHBodck">Virtual Tour - Visit Campus Today</a>
-                </p>
+                <ul>
+                    <li><a href="/campus-directory/">Faculty &amp; Staff Directory</a></li>
+                    <li><a href="/about/campusmap/">Campus Map &amp; Directions</a></li>
+                    <li><a href="https://youtu.be/f3oZsHBodck">Virtual Tour - Visit Campus Today</a></li>
+                </ul>
             </div>
 
             <!-- COLUMN 2: LIBRARY AND RESOURCES -->
             <div class="footer-column">
+                <h3>RESOURCES</h3>
                 <ul>
                     <li><a href="https://rockford.libguides.com/home">Library</a></li>
                     <li><a href="/academics/majorsminors/">Majors and Minors</a></li>
@@ -299,6 +306,7 @@
 
             <!-- COLUMN 3: GIVING AND ADDITIONAL LINKS -->
             <div class="footer-column">
+                <h3>COMMUNITY</h3>
                 <ul>
                     <li><a href="/ways-to-give/">Give</a></li>
                     <li><a href="/about/news/">News</a></li>
@@ -309,6 +317,20 @@
                     <li><a href="https://complaints.ibhe.org/">IBHE Feedback</a></li>
                     <li><a href="/community/campus/scheduling/">Scheduling Services and Rentals</a></li>
                 </ul>
+            </div>
+            
+            <!-- COLUMN 4: SOCIAL MEDIA -->
+            <div class="footer-column">
+                <h3>CONNECT WITH US</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/RockfordUniversity" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                    <a href="https://www.twitter.com/RockfordUniv" target="_blank"><i class="fa-brands fa-x-twitter"></i> X</a>
+                    <a href="https://www.instagram.com/rockforduniversity/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="https://www.snapchat.com/add/rockford.u" target="_blank"><i class="fa-brands fa-snapchat"></i> Snapchat</a>
+                    <a href="https://www.linkedin.com/edu/school?id=18296" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://www.youtube.com/user/rockforduniversity" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                    <a href="https://rockford.meritpages.com/" target="_blank"><i class="fa-solid fa-award"></i> Merit</a>
+                </div>
             </div>
 
         </div>
@@ -328,34 +350,6 @@
                     Copyright &copy; 2026 Rockford University,
                     all rights reserved
                 </p>
-
-
-                <!-- SOCIAL MEDIA LINKS -->
-                <div class="social-icons">
-
-                    <a href="https://www.facebook.com/RockfordUniversity"
-                       target="_blank">Facebook</a>
-
-                    <a href="https://www.twitter.com/RockfordUniv"
-                       target="_blank">Twitter</a>
-
-                    <a href="https://www.instagram.com/rockforduniversity/"
-                       target="_blank">Instagram</a>
-
-                    <a href="https://www.snapchat.com/add/rockford.u"
-                       target="_blank">Snapchat</a>
-
-                    <a href="https://www.linkedin.com/edu/school?id=18296"
-                       target="_blank">LinkedIn</a>
-
-                    <a href="https://www.youtube.com/user/rockforduniversity"
-                       target="_blank">YouTube</a>
-
-                    <a href="https://rockford.meritpages.com/"
-                       target="_blank">Merit</a>
-
-                </div>
-
             </div>
 
         </div>

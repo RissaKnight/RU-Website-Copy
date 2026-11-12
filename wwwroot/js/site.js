@@ -55,4 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         });
     }
+    // Close dropdowns when clicking anywhere outside of them
+    document.addEventListener("click", function (event) {
+        // Check if the click happened inside a navigation item
+        const isClickInsideDropdown = event.target.closest(".mainNav > li.has-dropdown");
+
+        // If the click was outside, close all dropdowns
+        if (!isClickInsideDropdown) {
+            closeAllDropdowns();
+        }
+    }); 
 });
