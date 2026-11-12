@@ -1,0 +1,446 @@
+﻿
+/* =========================================
+   GENERAL PAGE STYLING
+========================================= */
+
+.page {
+    background: #ffffff;
+    padding: 30px 0 45px;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* =========================================
+   TOP TWO-COLUMN LAYOUT
+========================================= */
+
+.top-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin-bottom: 35px;
+    align-items: stretch;
+}
+
+/* =========================================
+   IMAGE SLIDER
+========================================= */
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: #392052;
+    border-radius: 2px;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient( 90deg, rgba(45, 23, 68, .35), rgba(45, 23, 68, .05) );
+    color: #fff;
+    box-sizing: border-box;
+}
+
+    .slide.active {
+        display: flex;
+        align-items: center;
+    }
+
+    .slide img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: 0;
+    }
+
+    .slide h1 {
+        color: #fff;
+        font-size: 34px;
+        font-weight: 700;
+        margin: 0 0 15px;
+        text-transform: uppercase;
+    }
+
+    .slide p {
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.6;
+        max-width: 400px;
+    }
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .35);
+    color: #fff;
+    border: none;
+    width: 42px;
+    height: 55px;
+    font-size: 23px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+    .slider-arrow:hover {
+        background: #f28c20;
+    }
+
+    .slider-arrow.prev {
+        left: 0;
+    }
+
+    .slider-arrow.next {
+        right: 0;
+    }
+
+.indicators {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+    .indicators button {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background: transparent;
+        cursor: pointer;
+        padding: 0;
+    }
+
+        .indicators button.active {
+            background: #f28c20;
+            border-color: #f28c20;
+        }
+
+/* =========================================
+   SHOWCASE PANELS
+========================================= */
+
+.showcase {
+    background: #fff;
+    border: 1px solid #e4e1e5;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .07);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.showcase-header {
+    background: #78c043;
+    padding: 15px 18px;
+    border-bottom: 3px solid #d9d2df;
+}
+.showcase-header2 {
+    background: #5a4099;
+    padding: 15px 18px;
+    border-bottom: 3px solid #d9d2df;
+}
+.showcase-header3 {
+    background: #f28c20;
+    padding: 15px 18px;
+    border-bottom: 3px solid #d9d2df;
+}
+.showcase-header4 {
+    background: #5a4099;
+    padding: 15px 18px;
+    border-bottom: 3px solid #d9d2df;
+}
+
+    .showcase-header, h2 {
+        margin: 0;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.3;
+        text-transform: uppercase;
+    }
+
+.showcase-body {
+    padding: 18px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================================
+   ANNOUNCEMENTS AND DIALOGS
+========================================= */
+
+.announcement,
+.dialog {
+    padding: 12px 0;
+    border-bottom: 1px solid #e8e5e9;
+}
+
+    .announcement:first-child,
+    .dialog:first-child {
+        padding-top: 0;
+    }
+
+    .announcement h3,
+    .dialog h3,
+    .event-info h3 {
+        margin: 0 0 6px;
+        font-size: 14px;
+        line-height: 1.4;
+        font-weight: 700;
+    }
+
+        .announcement h3 a,
+        .dialog h3 a,
+        .event-info h3 a {
+            color: #49305a;
+            text-decoration: none;
+        }
+
+            .announcement h3 a:hover,
+            .dialog h3 a:hover,
+            .event-info h3 a:hover {
+                color: #ed861c;
+                text-decoration: underline;
+            }
+
+    .announcement p,
+    .dialog p,
+    .event-info p {
+        font-size: 12px;
+        line-height: 1.55;
+        color: #666;
+        margin: 0;
+    }
+
+/* =========================================
+   VIEW ALL BUTTON
+========================================= */
+
+.view-all {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 9px 19px;
+    background: #5aadce;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    transition: background .2s ease;
+}
+
+    .view-all:hover {
+        background: #f28c20;
+        color: #fff;
+    }
+
+/* =========================================
+   BOTTOM THREE-COLUMN LAYOUT
+========================================= */
+
+.bottom-layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+}
+
+    .bottom-layout .showcase {
+        min-height: 390px;
+    }
+
+/* =========================================
+   EVENTS TABS
+========================================= */
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+
+.tab {
+    padding: 10px 12px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background: #f4f2f5;
+    color: #49305a;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+    .tab:hover {
+        background: #e9e3ed;
+    }
+
+    .tab.active {
+        background: #fff;
+        border-bottom-color: #f28c20;
+        color: #402353;
+    }
+
+.event-list {
+    display: none;
+}
+
+    .event-list.active {
+        display: block;
+    }
+
+/* =========================================
+   EVENT ITEMS
+========================================= */
+
+.event {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e8e5e9;
+}
+
+.event-date {
+    min-width: 48px;
+    padding: 7px 4px;
+    background: #f28c20;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+    .event-date span {
+        font-size: 12px;
+    }
+
+    .event-date .day {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+.event-info {
+
+    flex: 1;
+    min-width: 0;
+}
+
+/* =========================================
+   RESPONSIVE LAYOUT
+========================================= */
+
+@media (max-width: 900px) {
+
+    .top-layout {
+        grid-template-columns: 1.6fr 1fr;
+        gap: 15px;
+    }
+
+    .bottom-layout {
+        gap: 15px;
+    }
+
+    .slider {
+        height: 350px;
+    }
+
+    .showcase-header h2 {
+        font-size: 15px;
+    }
+
+    .showcase-body {
+        padding: 13px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .top-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-layout {
+        grid-template-columns: 1fr;
+    }
+
+
+    .slider {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .slide {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        .slide h1 {
+            font-size: 25px;
+        }
+}
+
+@media (max-width: 420px) {
+
+    .slider {
+        height: 240px;
+    }
+
+    .slide h1 {
+        font-size: 21px;
+    }
+
+    .slide p {
+        font-size: 14px;
+    }
+
+    .tab {
+        padding: 9px 8px;
+        font-size: 10px;
+    }
+}
