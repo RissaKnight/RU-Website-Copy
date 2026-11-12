@@ -10,6 +10,11 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="~/css/portal.css"
+          asp-append-version="true" />
+
     <link rel="stylesheet" href="~/RU_ASP_Semester_Project.styles.css" asp-append-version="true" />
 </head>
 
@@ -30,6 +35,14 @@
 
                 <a href="/contactus">
                     Contact Us
+                </a>
+
+                <!--PAGE CHECKS-->
+                <a asp-area="Employee" asp-controller="EmployeeHome" asp-action="Index">
+                    Student/Faculty Portal
+                </a>
+                <a asp-area="Admin" asp-controller="AdminHome" asp-action="Index">
+                    Admin Portal
                 </a>
             </div>
 
@@ -69,7 +82,7 @@
         <!-- UNIVERSITY BRAND -->
         <div class="ru-brand">
             <a asp-controller="Home" asp-action="Index">
-                Logo Filler
+                <img src="~/Images/Logo.png" alt="Rockford University Logo"></>
             </a>
         </div>
 
