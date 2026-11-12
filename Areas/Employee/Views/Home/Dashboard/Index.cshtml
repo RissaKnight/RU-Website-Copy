@@ -1,0 +1,268 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="page">
+    <div class="container">
+
+        <!-- TOP SECTION -->
+        <section class="top-layout">
+
+            <!-- IMAGE SLIDER -->
+            <div class="slider"
+                 id="sliderImages"
+                 data-image-folder="@Url.Content("~/Images/Events/")">
+
+                <button class="slider-arrow prev" onclick="changeSlide(-1)">❮</button>
+
+                <button class="slider-arrow next" onclick="changeSlide(1)">❯</button>
+
+                <div class="indicators" id="indicators"></div>
+
+            </div>
+
+            <!-- ANNOUNCEMENTS -->
+            <div class="showcase">
+                <div class="showcase-header">
+                    <h2>MY ANNOUNCEMENTS</h2>
+                </div>
+
+                <div class="showcase-body">
+
+                    <div class="announcement">
+                        <h3><a href="#">Important Campus Announcement</a></h3>
+                        <p>Read the latest updates and information from campus...</p>
+                    </div>
+
+                    <div class="announcement">
+                        <h3><a href="#">Upcoming Registration Dates</a></h3>
+                        <p>Registration information and important deadlines...</p>
+                    </div>
+
+                    <div class="announcement">
+                        <h3><a href="#">Student Resources Update</a></h3>
+                        <p>Check out the latest resources available to students...</p>
+                    </div>
+
+                    <div class="announcement">
+                        <h3><a href="#">Campus Maintenance Notice</a></h3>
+                        <p>Information about campus facilities and services...</p>
+                    </div>
+
+                    <a href="#" class="view-all">VIEW ALL</a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- BOTTOM THREE COLUMNS -->
+        <section class="bottom-layout">
+
+            <!-- CAMPUS BLOG -->
+            <div class="showcase">
+
+                <div class="showcase-header2">
+                    <h2>CAMPUS BLOG</h2>
+                </div>
+
+                <div class="showcase-body">
+
+                    <div class="dialog">
+                        <h3><a href="#">Welcome to Our Campus Blog</a></h3>
+                        <p>Read stories, updates, and highlights from our university community...</p>
+                    </div>
+
+                    <div class="dialog">
+                        <h3><a href="#">Meet Our Students</a></h3>
+                        <p>Learn more about the people who make our campus special...</p>
+                    </div>
+
+                    <div class="dialog">
+                        <h3><a href="#">What's New This Semester?</a></h3>
+                        <p>Find out what's happening around campus...</p>
+                    </div>
+
+                    <a href="#" class="view-all">VIEW ALL</a>
+
+                </div>
+            </div>
+
+            <!-- CAMPUS EVENTS -->
+            <div class="showcase">
+
+                <div class="showcase-header3">
+                    <h2>CAMPUS EVENTS</h2>
+                </div>
+
+                <div class="showcase-body">
+
+                    <div class="tabs">
+                        <button class="tab active" onclick="showEvents('all',this)">All</button>
+                        <button class="tab" onclick="showEvents('student',this)">Student Activities</button>
+                        <button class="tab" onclick="showEvents('athletics',this)">Athletics</button>
+                    </div>
+
+                    <div id="all" class="event-list active">
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">05</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Campus Welcome Event</a></h3>
+                                <p>10:00 AM - 12:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">08</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Student Organization Meeting</a></h3>
+                                <p>12:00 PM - 1:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">12</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Community Gathering</a></h3>
+                                <p>4:00 PM - 5:00 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="student" class="event-list">
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">10</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Student Club Meeting</a></h3>
+                                <p>12:00 PM - 1:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">15</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Student Activities Day</a></h3>
+                                <p>2:00 PM - 4:00 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="athletics" class="event-list">
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">18</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">University Sports Event</a></h3>
+                                <p>3:00 PM - 5:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-date">
+                                <span>Nov</span>
+                                <span class="day">21</span>
+                            </div>
+                            <div class="event-info">
+                                <h3><a href="#">Athletics Tournament</a></h3>
+                                <p>1:00 PM - 4:00 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="view-all">VIEW ALL</a>
+
+                </div>
+            </div>
+
+            <!-- STUDENT NEWS -->
+            <div class="showcase">
+
+                <div class="showcase-header4">
+                    <h2>STUDENT NEWS &amp; HAPPENINGS</h2>
+                </div>
+
+                <div class="showcase-body">
+
+                    <div class="dialog">
+                        <h3><a href="#">Student Achievement Spotlight</a></h3>
+                        <p>Celebrate the accomplishments of students in our community...</p>
+                    </div>
+
+                    <div class="dialog">
+                        <h3><a href="#">Upcoming Student Activities</a></h3>
+                        <p>Discover new opportunities to get involved on campus...</p>
+                    </div>
+
+                    <div class="dialog">
+                        <h3><a href="#">Campus Community News</a></h3>
+                        <p>Read the latest news and updates from students...</p>
+                    </div>
+
+                    <div class="dialog">
+                        <h3><a href="#">Student Organization Updates</a></h3>
+                        <p>Stay informed about clubs and organizations...</p>
+                    </div>
+
+                    <a href="#" class="view-all">VIEW ALL</a>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</main>
+
+@* Javascript *@
+<script>
+    function showEvents(category, button) {
+
+        // Get all event lists
+        const lists = document.querySelectorAll('.event-list');
+
+        // Hide all event lists
+        lists.forEach(function (list) {
+            list.classList.remove('active');
+        });
+
+        // Remove active styling from all tabs
+        const tabs = document.querySelectorAll('.tabs .tab');
+
+        tabs.forEach(function (tab) {
+            tab.classList.remove('active');
+        });
+
+        // Show the selected event list
+        const selected = document.getElementById(category);
+
+        if (selected) {
+            selected.classList.add('active');
+        }
+
+        // Highlight the selected button
+        button.classList.add('active');
+    }
+</script>
