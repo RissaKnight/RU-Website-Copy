@@ -37,17 +37,29 @@
                     Contact Us
                 </a>
 
-                <!--PAGE CHECKS-->
-                <a asp-area="Employee" asp-controller="EmployeeHome" asp-action="Index">
-                    Student/Faculty Portal
-                </a>
-                <a asp-area="Admin" asp-controller="AdminHome" asp-action="Index">
-                    Admin Portal
-                </a>
             </div>
 
             <!-- RIGHT SIDE -->
             <div class="toparea-right">
+                <!--LOGOUT -->
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <form asp-area="Account" asp-controller="Account" asp-action="Logout" 
+                        method="post">
+                        <button type="submit" class="logout-button">Logout</button>
+                    </form>
+                }
+
+                <!-- WELCOME USER -->
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <span class="welcome-user">Welcome,
+                        @User.FindFirst("FirstName")?.Value
+                        @User.FindFirst("LastName")?.Value
+                    </span>
+                }
+
+
                 <a href="https://www.rockford.edu/about/">About</a>
 
                 <a href="https://www.rockford.edu/newsroom/">Newsroom</a>

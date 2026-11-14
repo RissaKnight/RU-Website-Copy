@@ -1,12 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\wwwroot\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:wwwroot\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|c:\\users\\cdbtt\\source\\repos\\trialrun\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4FA5A47-8FE4-20A5-D2F4-28795BA75A51}|RU ASP Semester Project.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-14T19:09:31.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "portal.css",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\wwwroot\\css\\portal.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\portal.css",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\wwwroot\\css\\portal.css",
+              "RelativeToolTip": "wwwroot\\css\\portal.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-14T18:48:43.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T18:43:42.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T04:49:15.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-14T04:44:05.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T04:44:46.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

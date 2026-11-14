@@ -79,6 +79,8 @@ padding: 20px;
         text-decoration: underline;
     }
 
+
+
 /* SEARCH */
 
 .toparea form {
@@ -105,6 +107,16 @@ padding: 20px;
 
     .toparea button:hover {
         background-color: white;
+    }
+
+    .toparea button.logout-button
+    {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        color: inherit;
+        font: inherit;
     }
 
 /* ============================= */

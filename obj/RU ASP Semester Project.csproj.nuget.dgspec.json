@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\RU ASP Semester Project.csproj": {}
+    "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\RU ASP Semester Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\RU ASP Semester Project.csproj": {
+    "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\RU ASP Semester Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\RU ASP Semester Project.csproj",
+        "projectUniqueName": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\RU ASP Semester Project.csproj",
         "projectName": "RU ASP Semester Project",
-        "projectPath": "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\RU ASP Semester Project.csproj",
-        "packagesPath": "C:\\Users\\Cody\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cody\\source\\repos\\RU ASP Semester Project\\obj\\",
+        "projectPath": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\RU ASP Semester Project.csproj",
+        "packagesPath": "C:\\Users\\cdbtt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cdbtt\\source\\repos\\TrialRun\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cdbtt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,12 +46,34 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -71,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.3.26522.148/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

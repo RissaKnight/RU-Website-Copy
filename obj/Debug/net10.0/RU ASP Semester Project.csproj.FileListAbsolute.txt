@@ -1,0 +1,249 @@
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\appsettings.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.staticwebassets.runtime.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.staticwebassets.endpoints.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.exe
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.deps.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.runtimeconfig.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.runtimeconfig.dev.json
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\RU ASP Semester Project.pdb
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Humanizer.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\EFCore.Tools.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+C:\Users\cdbtt\source\repos\TrialRun\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.csproj.AssemblyReference.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.lib.module.js
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.BrowserTools.js
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.BrowserTools.Config.js
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\dotnet-watch\browser-tools-key.public.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\dotnet-watch\browser-tools-key.private.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.AssemblyInfoInputs.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.AssemblyInfo.cs
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.csproj.CoreCompileInputs.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.RazorAssemblyInfo.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.RazorAssemblyInfo.cs
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.sourcelink.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\jsmodules\jsmodules.build.manifest.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\scopedcss\scopedcss.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\scopedcss\bundle\RU ASP Semester Project.styles.css
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\scopedcss\projectbundle\RU ASP Semester Project.bundle.scp.css
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\mxyr5iv6hr-{0}-s9y91u5nkn-s9y91u5nkn.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\r51v7eokiu-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\vh865tuf85-{0}-ay71pqesan-ay71pqesan.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\u1u8tri0r1-{0}-t1cqhe9u97-t1cqhe9u97.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\b2h1cjdu22-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\blua2u5jbw-{0}-sejl45xvog-sejl45xvog.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\da07hsru8e-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\fnjyfrofr3-{0}-xvp3kq03qx-xvp3kq03qx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\5ea5k5hz21-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\u1h0zagryi-{0}-22vffe00uq-22vffe00uq.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\416wrjyysn-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\1dt1dkrl0s-{0}-qesaa3a1fm-qesaa3a1fm.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\7obo62t8z1-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ct3l3o4olc-{0}-tmc1g35s3z-tmc1g35s3z.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\cekcfc37oh-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\6r84ovlhhr-{0}-rxsg74s51o-rxsg74s51o.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\1aa9pucdtd-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\t051ecvn4l-{0}-q9ht133ko3-q9ht133ko3.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\5doq7xuncz-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\4yw7ry33p4-{0}-gye83jo8yx-gye83jo8yx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\obs7tfkcob-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\h2go7gqh32-{0}-wl58j5mj3v-wl58j5mj3v.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\n9t34y5xgv-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\5gtzw1v685-{0}-d4r6k3f320-d4r6k3f320.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\lt2o4uvtux-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\i0n9avl5zx-{0}-keugtjm085-keugtjm085.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\jk28jyjvpl-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\4b10p13bys-{0}-zub09dkrxp-zub09dkrxp.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ruylhv1nf4-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ibr0kzk28l-{0}-43atpzeawx-43atpzeawx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\bjcco8mnst-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\230wrsa2et-{0}-ynyaa8k90p-ynyaa8k90p.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\dxzxy02wjn-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\d9oshi10hm-{0}-c63t5i9ira-c63t5i9ira.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\58ehf6981x-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\hygnm8ru5e-{0}-4094rpi4f9-4094rpi4f9.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\km3eunhc3o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\wba5um9e9e-{0}-hd3gran6i8-hd3gran6i8.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\v7whm1st67-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\b4lzs85tqg-{0}-ltid2c489k-ltid2c489k.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\0pdjg0g7nl-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\4wgf9til9y-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\j3iktc7wh8-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\bw7c64mzh4-{0}-u9q1upor1n-u9q1upor1n.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ww772j8w0u-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\kchd53awvh-{0}-4d85u1mtcx-4d85u1mtcx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\vot3o1no0u-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\alevwftyp5-{0}-03hjc8e09r-03hjc8e09r.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ti6n3rmldi-{0}-48y08845bh-48y08845bh.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ff1xvtct5t-{0}-356vix0kms-356vix0kms.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\y2zkokmh23-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\jpr6k6zhf9-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\4r38vkz5ev-{0}-worgj0nhwm-worgj0nhwm.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\9wna5818ol-{0}-gk0pw8i4co-gk0pw8i4co.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\1aqrdr9sdx-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\ssjwto42ok-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\zzkpspjpnj-{0}-m9qm4tazc0-m9qm4tazc0.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\m4lwwcyl3d-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\hv6j4wwmob-{0}-jjsuc0puko-jjsuc0puko.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\9o0mbxx1dh-{0}-9vr69e8ynj-9vr69e8ynj.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\9ljkerspqp-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\2qhrbple2r-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\06uhc9omc2-{0}-lvkpp2i49p-lvkpp2i49p.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\73q30998o9-{0}-scyj3pnqhf-scyj3pnqhf.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\zg3iha4vy2-{0}-3a7q21ahaz-3a7q21ahaz.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\n02qvg40hx-{0}-3a7q21ahaz-3a7q21ahaz.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP S.4B55AD46.Up2Date
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.dll
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\refint\RU ASP Semester Project.dll
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.pdb
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\RU ASP Semester Project.genruntimeconfig.cache
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\ref\RU ASP Semester Project.dll
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\mxyfe2z0du-{0}-5zn0em1x8n-5zn0em1x8n.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\cv38de6056-{0}-8lz977w3ez-8lz977w3ez.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\lfswu0ijiy-{0}-gzi24zevhs-gzi24zevhs.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\920r5w8qxg-{0}-8v934mhso1-8v934mhso1.gz

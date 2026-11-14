@@ -1,3 +1,5 @@
+@model RU_ASP_Semester_Project.Models.LoginViewModel
+
 @{
     ViewData["Title"] = "Login";
     Layout = null;
@@ -22,55 +24,66 @@
 
             <h2>Rockford University Log In</h2>
 
-            <!-- USERNAME -->
-            <div class="form-group">
+            <!-- LOGIN FORM -->
+            <form asp-controller="Account" asp-action="Login" method="post">
 
-                <label for="username">Username</label>
+                <!-- USERNAME -->
+                <div class="form-group">
 
-                <input type="text"
-                       id="username"
-                       name="username"
-                       placeholder="Enter Username">
+                    <label asp-for="Username">Username</label>
 
-            </div>
+                    <input asp-for="Username"
+                           type="text"
+                           placeholder="Enter Username">
 
+                    <span asp-validation-for="Username" class="text-danger"></span>
 
-            <!-- PASSWORD -->
-            <div class="form-group">
+                </div>
 
-                <label for="password">Password</label>
+                <!-- PASSWORD -->
+                <div class="form-group">
 
-                <input type="password"
-                       id="password"
-                       name="password"
-                       placeholder="Enter Password">
+                    <label asp-for="Password">Password</label>
 
-            </div>
+                    <input asp-for="Password"
+                           type="password"
+                           placeholder="Enter Password">
 
+                    <span asp-validation-for="Password" class="text-danger"></span>
 
-            <!-- LOGIN BUTTON -->
-            <button type="button" class="login-button">
-                Login
-            </button>
+                </div>
 
+                <!-- REMEMBER ME -->
+                <div class="remember-me">
 
-            <!-- CHANGE PASSWORD BUTTON -->
-            <button type="button" class="change-password-button">
-                Change Password
-            </button>
+                    <input asp-for="RememberMe" type="checkbox">
 
+                    <label asp-for="RememberMe">Remember Me</label>
 
-            <!-- FORGOT PASSWORD -->
-            <div class="forgot-password">
+                </div>
 
-                <a href="#">Forgot Password?</a>
+                <!-- LOGIN BUTTON -->
+                <button type="submit" class="login-button">
+                    Login
+                </button>
 
-            </div>
+                <!-- CHANGE PASSWORD BUTTON -->
+                <button type="button" class="change-password-button">
+                    Change Password
+                </button>
+
+                <!-- FORGOT PASSWORD -->
+                <div class="forgot-password">
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+            </form>
 
         </div>
 
     </div>
 
 </body>
-
 </html>
