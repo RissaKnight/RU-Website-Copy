@@ -246,4 +246,4 @@ C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\ref\RU ASP Semester Proje
 C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\mxyfe2z0du-{0}-5zn0em1x8n-5zn0em1x8n.gz
 C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\cv38de6056-{0}-8lz977w3ez-8lz977w3ez.gz
 C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\lfswu0ijiy-{0}-gzi24zevhs-gzi24zevhs.gz
-C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\920r5w8qxg-{0}-8v934mhso1-8v934mhso1.gz
+C:\Users\cdbtt\source\repos\TrialRun\obj\Debug\net10.0\compressed\920r5w8qxg-{0}-o3v96od4pi-o3v96od4pi.gz

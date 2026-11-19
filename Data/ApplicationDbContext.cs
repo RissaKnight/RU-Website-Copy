@@ -22,6 +22,7 @@ namespace RU_ASP_Semester_Project.Data
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Location> Locations { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<AcademicProgram> Programs { get; set; }
         public DbSet<Student> Students { get; set; }
@@ -33,7 +34,26 @@ namespace RU_ASP_Semester_Project.Data
 
             builder.Entity<AcademicProgram>().HasKey(p => p.ProgramId);
 
+            //Set LocationKey
+            builder.Entity<Location>().HasKey(l => l.LocationId);
+            //Prevent Dupe Location
+            builder.Entity<Location>()
+                .HasIndex(l => l.LocationName)
+                .IsUnique();
 
+            //Connect Event to location
+            builder.Entity<Event>()
+                .HasOne<Location>(e => e.EventLocation)
+                .WithMany(l => l.Events)
+                .HasForeignKey(e => e.LocationId);
+
+            //Connect Event to Department
+            builder.Entity<Event>()
+                .HasOne<Department>(e => e.EventDepartment)
+                .WithMany(d => d.Events)
+                .HasForeignKey(e => e.DepartmentId);
+
+            //Users
             builder.Entity<Admin>()
                 .HasOne(a => a.User)
                 .WithOne()

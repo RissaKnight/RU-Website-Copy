@@ -617,6 +617,216 @@ padding: 20px;
     }
 }
 
+/* ============================= */
+/* BLOG                          */
+/* ============================= */
+
+/* BLOG PAGE */
+
+.blog-page {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.blog-heading {
+    margin-bottom: 40px;
+}
+
+.blog-breadcrumb {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+    .blog-breadcrumb a {
+        color: #800000;
+        text-decoration: none;
+    }
+
+.blog-heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* BLOG LIST */
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.blog-post {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* DATE */
+
+.blog-date {
+    min-width: 75px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-month {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog-year {
+    font-size: 13px;
+    color: #777;
+}
+
+.blog-day {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* CONTENT */
+
+.blog-content {
+    flex: 1;
+}
+
+    .blog-content h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+        .blog-content h2 a {
+            color: #800000;
+            text-decoration: none;
+        }
+
+            .blog-content h2 a:hover {
+                text-decoration: underline;
+            }
+
+.blog-image {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.blog-preview {
+    line-height: 1.7;
+    color: #444;
+}
+
+.blog-read-more {
+    color: #800000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .blog-post {
+        gap: 15px;
+    }
+
+    .blog-date {
+        min-width: 55px;
+    }
+
+    .blog-content h2 {
+        font-size: 20px;
+    }
+}
+/* ============================= */
+/* NEWS HAPPENINGS               */
+/* ============================= */
+
+/* NEWS HEADING AND SUBMIT BUTTON */
+
+.news-heading-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.news-submit-button {
+    display: inline-block;
+    background-color: #8b1e2d;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+    .news-submit-button:hover {
+        background-color: #681522;
+        color: white;
+    }
+
+/* NEWS SUBMISSION FORM */
+
+.news-form-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+    .news-form-page h1 {
+        margin-top: 25px;
+    }
+
+    .news-form-page form {
+        margin-top: 30px;
+    }
+
+    .news-form-page .form-group {
+        margin-bottom: 22px;
+    }
+
+    .news-form-page label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .news-form-page .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .news-form-page textarea {
+        resize: vertical;
+    }
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.news-cancel-button {
+    padding: 12px 20px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .news-heading-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 /* ============================= */
 /* TABLET FOOTER                 */

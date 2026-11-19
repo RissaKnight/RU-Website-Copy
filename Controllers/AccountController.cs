@@ -156,6 +156,8 @@ namespace RU_ASP_Semester_Project.Controllers
             await _signInManager.SignOutAsync();
             //if logout take to main public home page
             return RedirectToAction("Index", "Home");
+
+            //return Content("LOGOUT METHOD WAS REACHED");
         }
 
     }

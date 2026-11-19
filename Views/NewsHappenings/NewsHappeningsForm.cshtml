@@ -1,0 +1,72 @@
+﻿@model RU_ASP_Semester_Project.Models.News
+
+@{
+    ViewData["Title"] = "Submit News Item";
+}
+
+<div class="news-form-page">
+
+    <a href="/NewsHappenings/Index">
+        ← Back to News & Happenings
+    </a>
+
+    <h1>Submit a News Item</h1>
+
+    <p>
+        Use this form to submit campus news or happenings.
+        Your submission will be reviewed by an administrator
+        before it is published.
+    </p>
+
+    <form asp-controller="NewsHappenings"
+          asp-action="NewsHappeningsForm"
+          method="post">
+
+        @Html.AntiForgeryToken()
+
+        <div asp-validation-summary="ModelOnly"
+             class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Title">News Title</label>
+            <input asp-for="Title"
+                   class="form-control"
+                   placeholder="Enter a news title" />
+            <span asp-validation-for="Title"
+                  class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Author">Author</label>
+            <input asp-for="Author"
+                   class="form-control"
+                   placeholder="Enter author name" />
+            <span asp-validation-for="Author"
+                  class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Content">News Content</label>
+            <textarea asp-for="Content"
+                      class="form-control"
+                      rows="8"
+                      placeholder="Enter the news article here..."></textarea>
+            <span asp-validation-for="Content"
+                  class="text-danger"></span>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="news-submit-button">
+                Submit for Review
+            </button>
+
+            <a href="/NewsHappenings/Index"
+               class="news-cancel-button">
+                Cancel
+            </a>
+        </div>
+
+    </form>
+
+</div>
+

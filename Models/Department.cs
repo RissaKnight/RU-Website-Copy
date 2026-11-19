@@ -4,6 +4,7 @@ namespace RU_ASP_Semester_Project.Models
 {
     public class Department
     {
+        //Department info
         public required int DepartmentId { get; set; }
         public required string DepartmentName { get; set; }
 
@@ -15,5 +16,8 @@ namespace RU_ASP_Semester_Project.Models
         public string? PhoneNumber { get; set; }
         [EmailAddress]
         public string? Email { get; set; }
+
+        //Event Organized by department
+        public ICollection<Event> Events { get; set; } = new List<Event>();
     }
 }

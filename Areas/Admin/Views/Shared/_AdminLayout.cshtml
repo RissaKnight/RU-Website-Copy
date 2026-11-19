@@ -1,0 +1,225 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administration | Rockford University</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/admin.css" />
+</head>
+
+<body>
+
+    <!-- ADMIN HEADER -->
+    <header class="ru-header">
+        <!-- ============================= -->
+        <!-- ROCKFORD UNIVERSITY HEADER    -->
+        <!-- ============================= -->
+
+        <!-- TOP NAVIGATION -->
+        <section class="toparea">
+            <div class="toparea-container">
+
+                <!-- LEFT SIDE -->
+                <div class="toparea-left">
+                    <a href="https://www.rockford.edu/admission/apply/">
+                        Apply Now
+                    </a>
+
+                    <a href="/contactus">
+                        Contact Us
+                    </a>
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="toparea-right">
+                    <!-- LOGOUT -->
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <form action="/Account/Logout" method="post">
+                            @Html.AntiForgeryToken()
+
+                            <button type="submit" class="logout-button">
+                                Logout
+                            </button>
+                        </form>
+                    }
+
+                    <!-- WELCOME USER -->
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        //LOGIN ONLY
+                        var firstName = User.FindFirst("FirstName")?.Value;
+                        var lastName = User.FindFirst("LastName")?.Value;
+
+                            if (!string.IsNullOrWhiteSpace(firstName) ||
+                                !string.IsNullOrWhiteSpace(lastName))
+                            {
+                                <span class="welcome-user"> Welcome,
+                                    @User.FindFirst("FirstName")?.Value
+                                    @User.FindFirst("LastName")?.Value
+                                </span>
+                            }
+                    }
+
+
+                    <a href="https://www.rockford.edu/about/">About</a>
+
+                    <a href="https://www.rockford.edu/newsroom/">Newsroom</a>
+
+                    <a href="https://www.givecampus.com/5m190o" target="_blank">
+                        Give
+                    </a>
+
+                    <a href="https://rockford.libguides.com/home">
+                        Library
+                    </a>
+
+                    <a href="/Account/Login">
+                        my.rockford.edu
+                    </a>
+
+                    <form role="search" method="get"
+                          action="https://www.rockford.edu/">
+                        <input type="search"
+                               name="s"
+                               placeholder="Search..." />
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+            <!-- UNIVERSITY BRAND -->
+            <div class="ru-brand">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/Images/Logo.png" alt="Rockford University Logo"></>
+                </a>
+            </div>
+    </header>
+
+    <!-- ADMIN PORTAL BAR -->
+    <div class="admin-portal-bar">
+        ADMINISTRATION PORTAL
+        <!-- FOR NOTIFICATION-->
+
+    </div>
+
+    <!-- MAIN PAGE AREA -->
+    <div class="admin-container">
+
+        <!-- SIDEBAR -->
+        <aside class="admin-sidebar">
+
+            <!-- NEEDS NAVIGATION LIST FOR CHECKS -->
+            <!-- DASHBOARD -->
+            <h3>ADMINISTRATION</h3>
+            <ul class="admin-nav">
+                <li>
+                    <a asp-area = "Admin"
+                        asp-controller ="AdminHome"
+                        asp-action ="Index">
+                        Dashboard
+                    </a>
+                </li>
+            </ul>
+            <!-- CONTENT APPROVALS-->
+            <h3>CONTENT APPROVALS</h3>
+            <ul class="admin-nav">
+                <li><a href="#">Pending Approvals</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+
+            <!-- UNIVERITY MANAGEMENT -->
+            <h3>MANAGE UNIVERSITY</h3>
+            <ul class="admin-nav">
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Employees</a></li>
+                <li><a href="#">Administrators</a></li>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Academic Programs</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Academic Terms</a></li>
+                <li><a href="#">Locations</a></li>
+            </ul>
+
+            <!-- WEBSITE MANAGEMENT -->
+            <h3>MANAGE WEBSITE</h3>
+            <ul class="admin-nav">
+                <li><a href="#">Public Website</a></li>
+                <li><a href="#">Homepage Content</a></li>
+                <li><a href="#">Website Images</a></li>
+                <li><a href="#">File Attachments</a></li>
+            </ul>
+
+            <!-- USER ACCESS -->
+            <h3>USER ACCESS</h3>
+            <ul class="admin-nav">
+                <li><a href="#">User Accounts</a></li>
+                <li><a href="#">Role Management</a></li>
+                <li><a href="#">Password Resets</a></li>
+            </ul>
+
+            <!-- REPORTS -->
+            <h3>REPORTS</h3>
+            <ul class="admin-nav">
+                <li><a href="#">Student Reports</a></li>
+                <li><a href="#">Employee Reports</a></li>
+                <li><a href="#">Content Reports</a></li>
+            </ul>
+
+            <!-- ACCOUNT SETTINGS -->
+            <h3>ACCOUNT</h3>
+            <ul class="admin-nav">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Activity History</a></li>
+            </ul>
+
+        </aside>
+
+        <!-- PAGE CONTENT -->
+        <main class="admin-content">
+            @RenderBody()
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="admin-footer">
+        <div class="copyright">
+            <div class="copyright-content">
+                <!-- BACK TO TOP -->
+                <div class="back-top">
+                    <a href="#top">Back to Top ↑</a>
+                </div>
+
+
+                <!-- COPYRIGHT AND SOCIAL MEDIA -->
+                <div class="copyright">
+
+                    <div class="copyright-content">
+
+                        <p>
+                            Copyright &copy; 2026 Rockford University,
+                            all rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

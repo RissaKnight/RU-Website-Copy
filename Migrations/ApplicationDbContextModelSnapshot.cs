@@ -286,8 +286,19 @@ namespace RU_ASP_Semester_Project.Migrations
                     b.Property<string>("AnnouncementId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Audience")
-                        .IsRequired()
+                    b.Property<string>("AnnouncementImageDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ApprovedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ApprovedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("AttachmentFileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AttachmentPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Content")
@@ -296,10 +307,23 @@ namespace RU_ASP_Semester_Project.Migrations
                     b.Property<DateTime?>("ExpirationDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsPublished")
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("PublishedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubmittedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("SubmittedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
@@ -443,27 +467,116 @@ namespace RU_ASP_Semester_Project.Migrations
                     b.Property<string>("EventId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("ApprovedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ApprovedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Audience")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<decimal>("EventCost")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("EventImageDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EventImagePath")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("EventName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("EventStatus")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExternalWebsite")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAllDay")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsPublished")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Location")
+                    b.Property<string>("LocationId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("PublishedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RoomNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubmittedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("SubmittedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Tags")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("EventId");
 
+                    b.HasIndex("DepartmentId");
+
+                    b.HasIndex("LocationId");
+
                     b.ToTable("Events");
+                });
+
+            modelBuilder.Entity("RU_ASP_Semester_Project.Models.Location", b =>
+                {
+                    b.Property<string>("LocationId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LocationName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("OnlineMeetingUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StreetAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ZipCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("LocationId");
+
+                    b.HasIndex("LocationName")
+                        .IsUnique()
+                        .HasFilter("[LocationName] IS NOT NULL");
+
+                    b.ToTable("Locations");
                 });
 
             modelBuilder.Entity("RU_ASP_Semester_Project.Models.News", b =>
@@ -474,23 +587,42 @@ namespace RU_ASP_Semester_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NewsId"));
 
+                    b.Property<string>("ApprovedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ApprovedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Author")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Content")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NewsImageDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewsImagePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("PublishedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Title")
+                    b.Property<string>("Status")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("isPublished")
-                        .HasColumnType("bit");
+                    b.Property<string>("SubmittedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("SubmittedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("NewsId");
 
@@ -646,6 +778,23 @@ namespace RU_ASP_Semester_Project.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("RU_ASP_Semester_Project.Models.Event", b =>
+                {
+                    b.HasOne("RU_ASP_Semester_Project.Models.Department", "EventDepartment")
+                        .WithMany("Events")
+                        .HasForeignKey("DepartmentId");
+
+                    b.HasOne("RU_ASP_Semester_Project.Models.Location", "EventLocation")
+                        .WithMany("Events")
+                        .HasForeignKey("LocationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("EventDepartment");
+
+                    b.Navigation("EventLocation");
+                });
+
             modelBuilder.Entity("RU_ASP_Semester_Project.Models.Program", b =>
                 {
                     b.HasOne("RU_ASP_Semester_Project.Models.Department", "Department")
@@ -672,6 +821,16 @@ namespace RU_ASP_Semester_Project.Migrations
                     b.Navigation("Program");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RU_ASP_Semester_Project.Models.Department", b =>
+                {
+                    b.Navigation("Events");
+                });
+
+            modelBuilder.Entity("RU_ASP_Semester_Project.Models.Location", b =>
+                {
+                    b.Navigation("Events");
                 });
 #pragma warning restore 612, 618
         }

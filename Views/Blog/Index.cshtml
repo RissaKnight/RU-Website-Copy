@@ -1,0 +1,92 @@
+﻿@model IEnumerable<RU_ASP_Semester_Project.Models.Blog>
+
+@{
+    ViewData["Title"] = "Campus Blog";
+}
+
+<div class="blog-page">
+
+    <!-- PAGE TITLE -->
+    <div class="blog-heading">
+
+        <div class="blog-breadcrumb">
+            <a asp-controller="Home" asp-action="Index">
+                Rockford.edu
+            </a>
+            / Portal / Campus Blog
+        </div>
+
+        <h1>Campus Blog</h1>
+
+    </div>
+
+    <!-- BLOG POSTS -->
+    <div class="blog-list">
+
+        @if (Model.Any())
+        {
+            foreach (var blog in Model)
+            {
+                <article class="blog-post">
+
+                    <!-- PUBLISHED DATE -->
+                    <div class="blog-date">
+
+                        @if (blog.PublishedDate.HasValue)
+                        {
+                            <span class="blog-month">
+                                @blog.PublishedDate.Value.ToString("MMM")
+                            </span>
+
+                            <span class="blog-year">
+                                @blog.PublishedDate.Value.ToString("yyyy")
+                            </span>
+
+                            <span class="blog-day">
+                                @blog.PublishedDate.Value.ToString("dd")
+                            </span>
+                        }
+
+                    </div>
+
+                    <!-- POST CONTENT -->
+                    <div class="blog-content">
+
+                        <h2>
+                            <a asp-controller="Blog"
+                               asp-action="Details"
+                               asp-route-id="@blog.BlogId">
+                                @blog.Title
+                            </a>
+                        </h2>
+
+                        @if (!string.IsNullOrEmpty(blog.ImageUrl))
+                        {
+                            <img src="@blog.ImageUrl"
+                                 alt="@blog.Title"
+                                 class="blog-image" />
+                        }
+
+                        <p class="blog-preview">
+                            @blog.Content
+                        </p>
+
+                        <a asp-controller="Blog"
+                           asp-action="Details"
+                           asp-route-id="@blog.BlogId"
+                           class="blog-read-more">Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+            }
+        }
+        else
+        {
+            <p>No blog posts are currently available.</p>
+        }
+
+    </div>
+
+</div>
