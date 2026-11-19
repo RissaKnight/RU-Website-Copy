@@ -1,5 +1,136 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<h1>Rockford University</h1>
+<!-- ============================= -->
+<!-- 1. HERO SLIDER BANNER         -->
+<!-- ============================= -->
+<section id="ruHeroCarousel" class="carousel slide carousel-fade ru-hero" data-bs-ride="carousel" data-bs-interval="6000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#ruHeroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#ruHeroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+            <div class="hero-slide" style="background-image: url('@Url.Content("~/Images/banner-ru-1.jpeg")');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Discover Your Future at Rockford University</h1>
+                    <p>Small class sizes, dedicated faculty, and hands-on learning in the heart of northern Illinois.</p>
+                    <a href="https://www.rockford.edu/admission/apply/" class="ru-btn-primary">Apply Today</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+            <div class="hero-slide" style="background-image: url('@Url.Content("~/Images/banner-ru-2.jpeg")');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Experience Campus Life</h1>
+                    <p>Join a vibrant community of scholars, athletes, and creators.</p>
+                    <a href="https://www.rockford.edu/admission/visit/" class="ru-btn-primary">Schedule a Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#ruHeroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ruHeroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</section>
+
+<!-- ============================= -->
+<!-- 2. FOUR-BLOCK CTA SECTION     -->
+<!-- ============================= -->
+<section class="ru-cta-section">
+    <div class="ru-container">
+        <div class="cta-grid">
+            <a href="https://www.rockford.edu/eforms/admissionsrequest/" class="cta-card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIMJvGw_K4j-JcNaFn_EBzpnSZUVXrMRAEtg1oRLEDCp74zecBD3SRXHV0&s=10?auto=format&fit=crop&w=800&q=80');">
+                <div class="cta-overlay"></div>
+                <span class="cta-title">Request Info</span>
+            </a>
+
+            <a href="https://www.rockford.edu/admission/visit/" class="cta-card" style="background-image: url('https://assets.simpleviewinc.com/simpleview/image/upload/crm/rockford/Rockford-University---Bench-and-Scarborogh-Hall-e282648a5056a36_e2826632-5056-a36a-0686cf415ed69e3c.jpg?auto=format&fit=crop&w=800&q=80');">
+                <div class="cta-overlay"></div>
+                <span class="cta-title">Visit Campus</span>
+            </a>
+
+            <a href="https://www.rockford.edu/admission/apply/" class="cta-card" style="background-image: url('https://www.rockrivercurrent.com/wp-content/uploads/2024/10/DSC_6532.jpg?auto=format&fit=crop&w=800&q=80');">
+                <div class="cta-overlay"></div>
+                <span class="cta-title">Apply Now</span>
+            </a>
+
+            <a href="https://www.rockford.edu/admission/admitted/" class="cta-card" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80');">
+                <div class="cta-overlay"></div>
+                <span class="cta-title">Submit Your Deposit</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================= -->
+<!-- 3. PARALLAX PROGRAMS CTA      -->
+<!-- ============================= -->
+<section class="ru-parallax-cta" style="background-image: url('@Url.Content("~/Images/Rockford-University-Digital-Sign-with-Logo-scaled.jpg")?auto=format&fit=crop&w=1600&q=80');">
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+        <h2>Majors, Minors and Graduate Programs</h2>
+        <p>Find the program that is right for you!</p>
+        <a href="https://www.rockford.edu/academics/majorsminors/" class="ru-btn-outline">Explore Programs</a>
+    </div>
+</section>
+
+<!-- ============================= -->
+<!-- 4. LATEST NEWS / BLOG POSTS   -->
+<!-- ============================= -->
+<section class="ru-news-section">
+    <div class="ru-container">
+        <div class="section-header">
+            <h2>Latest News &amp; Stories</h2>
+            <a href="https://www.rockford.edu/newsroom/" class="view-all-link">View All News &rarr;</a>
+        </div>
+
+        <div class="news-grid">
+            <!-- POST 1 -->
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="news-body">
+                    <span class="news-date">November 12, 2026</span>
+                    <h3>Rockford University Announces New Academic Initiatives for Spring</h3>
+                    <p>Expanded hands-on research opportunities and updated lab spaces are coming to campus next semester.</p>
+                    <a href="https://www.rockford.edu/newsroom/" class="news-read-more">Read More &rarr;</a>
+                </div>
+            </article>
+
+            <!-- POST 2 -->
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1515603403036-f3d35f75ca52?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="news-body">
+                    <span class="news-date">November 8, 2026</span>
+                    <h3>Forum Series Welcomes Distinguished Guest Speakers</h3>
+                    <p>Students and community members gathered at Maddox Theatre for an evening of discussion and Q&amp;A.</p>
+                    <a href="https://www.rockford.edu/newsroom/" class="news-read-more">Read More &rarr;</a>
+                </div>
+            </article>
+
+            <!-- POST 3 -->
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1664237669482-b0583011cc45?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="news-body">
+                    <span class="news-date">November 3, 2026</span>
+                    <h3>Regents Athletics Wraps Up Strong Fall Season</h3>
+                    <p>Highlights and standout student-athlete performances from across our fall varsity programs.</p>
+                    <a href="https://www.rockford.edu/newsroom/" class="news-read-more">Read More &rarr;</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
